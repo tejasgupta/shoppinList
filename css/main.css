@@ -1,6 +1,11 @@
-body{
-	
+#header {
+	position: relative;
+	top: 50px;
+	font-size: 2em;
+	font-weight: bold;
+	color: rgb(25, 15, 63);
 }
+
 .container{
 	position: relative;
 	min-height: 400px;
@@ -11,10 +16,18 @@ body{
 	background-repeat: repeat;
 }
 .top{
+	text-align: center;
+	font-family: arial, Comic Sans, Comic Sans MS, cursive;
 	position: relative;
 	height: 200px;
 	min-width: 1200px;
 	background-color: rgba(157, 157, 143, 0.5);
+}
+.top p {
+	position: relative;
+	font-style: italic;
+	top: 50px;
+	color: rgb(25, 15, 63);
 }
 .bottom{
 	position: relative;
